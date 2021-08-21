@@ -1,0 +1,57 @@
+
+
+body{
+	background-color: black;
+
+}
+
+h1{
+	
+	margin: 50px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	
+}
+h3{
+	font-family: sans-serif;
+	color: black;
+
+}
+
+div{
+	background-color: grey;
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	padding: 2px 10px;
+	margin-bottom: 20px;
+}
+input{
+	background-color: grey;
+	border: none;
+	border-bottom-style: groove ;
+	border-bottom-color: darkgrey;
+	width: 50%;
+	height: 10px;
+
+
+}
+::placeholder{
+	color: black;
+
+}
+input:focus{
+	outline: none;
+	border-bottom-color: black;
+
+}
+@media screen and (max-width: 730px){
+	div{
+		width: 90%;
+	}
+	input{
+		width: 70%;
+	}
+}
+
